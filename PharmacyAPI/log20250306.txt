@@ -1,0 +1,100 @@
+2025-03-06 19:27:22.905 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-03-06 19:27:23.011 +03:00 [DBG] Hosting starting
+2025-03-06 19:27:23.048 +03:00 [INF] User profile is available. Using 'C:\Users\Naief\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-03-06 19:27:23.059 +03:00 [DBG] Reading data from file 'C:\Users\Naief\AppData\Local\ASP.NET\DataProtection-Keys\key-5605c206-7326-4680-811d-7d4edb57ff66.xml'.
+2025-03-06 19:27:23.076 +03:00 [DBG] Found key {5605c206-7326-4680-811d-7d4edb57ff66}.
+2025-03-06 19:27:23.086 +03:00 [DBG] Considering key {5605c206-7326-4680-811d-7d4edb57ff66} with expiration date 2025-06-01 11:33:20Z as default key.
+2025-03-06 19:27:23.090 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-06 19:27:23.094 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-03-06 19:27:23.096 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-03-06 19:27:23.100 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-03-06 19:27:23.101 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-03-06 19:27:23.103 +03:00 [DBG] Using key {5605c206-7326-4680-811d-7d4edb57ff66} as the default key.
+2025-03-06 19:27:23.104 +03:00 [DBG] Key ring with default key {5605c206-7326-4680-811d-7d4edb57ff66} was loaded during application startup.
+2025-03-06 19:27:23.475 +03:00 [INF] Now listening on: https://localhost:7236
+2025-03-06 19:27:23.476 +03:00 [INF] Now listening on: http://localhost:5046
+2025-03-06 19:27:23.477 +03:00 [DBG] Loaded hosting startup assembly PharmacyAPI
+2025-03-06 19:27:23.478 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-03-06 19:27:23.478 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-03-06 19:27:23.560 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-03-06 19:27:23.653 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-06 19:27:23.654 +03:00 [INF] Hosting environment: Development
+2025-03-06 19:27:23.655 +03:00 [INF] Content root path: C:\Users\Naief\source\repos\PharmacyAPI\PharmacyAPI
+2025-03-06 19:27:23.656 +03:00 [DBG] Hosting started
+2025-03-06 19:27:23.774 +03:00 [DBG] Connection id "0HNASPF3ANMCN" accepted.
+2025-03-06 19:27:23.776 +03:00 [DBG] Connection id "0HNASPF3ANMCN" started.
+2025-03-06 19:27:23.781 +03:00 [DBG] Connection id "0HNASPF3ANMCO" accepted.
+2025-03-06 19:27:23.782 +03:00 [DBG] Connection id "0HNASPF3ANMCO" started.
+2025-03-06 19:27:23.820 +03:00 [DBG] Connection id "0HNASPF3ANMCN" received FIN.
+2025-03-06 19:27:23.820 +03:00 [DBG] Connection id "0HNASPF3ANMCO" received FIN.
+2025-03-06 19:27:23.932 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-06 19:27:23.932 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-03-06 19:27:23.963 +03:00 [DBG] Connection id "0HNASPF3ANMCN" stopped.
+2025-03-06 19:27:23.963 +03:00 [DBG] Connection id "0HNASPF3ANMCO" stopped.
+2025-03-06 19:27:23.967 +03:00 [DBG] Connection id "0HNASPF3ANMCO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 19:27:23.967 +03:00 [DBG] Connection id "0HNASPF3ANMCN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-03-06 19:27:25.253 +03:00 [DBG] Connection id "0HNASPF3ANMCP" accepted.
+2025-03-06 19:27:25.255 +03:00 [DBG] Connection id "0HNASPF3ANMCP" started.
+2025-03-06 19:27:25.511 +03:00 [DBG] Connection 0HNASPF3ANMCP established using the following protocol: "Tls13"
+2025-03-06 19:27:25.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/index.html - null null
+2025-03-06 19:27:25.821 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-03-06 19:27:25.841 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-03-06 19:27:25.842 +03:00 [DBG] Request did not match any endpoints
+2025-03-06 19:27:25.899 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-03-06 19:27:25.900 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-03-06 19:27:25.915 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-03-06 19:27:25.916 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-03-06 19:27:25.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/index.html - 200 null text/html;charset=utf-8 284.7694ms
+2025-03-06 19:27:25.928 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-06 19:27:25.928 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/_vs/browserLink - null null
+2025-03-06 19:27:25.939 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 9.6594ms
+2025-03-06 19:27:25.995 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.4921ms
+2025-03-06 19:27:26.023 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7236/swagger/v1/swagger.json - null null
+2025-03-06 19:27:26.024 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-03-06 19:27:26.025 +03:00 [DBG] Request did not match any endpoints
+2025-03-06 19:27:26.132 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7236/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 109.884ms
+2025-03-06 19:27:57.976 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7236/api/auth/login - application/json 183
+2025-03-06 19:27:57.997 +03:00 [DBG] 1 candidate(s) found for the request path '/api/auth/login'
+2025-03-06 19:27:58.001 +03:00 [DBG] Endpoint 'PharmacyAPI.Controllers.LoginController.Login (PharmacyAPI)' with route pattern 'api/auth/login' is valid for the request path '/api/auth/login'
+2025-03-06 19:27:58.014 +03:00 [DBG] Request matched endpoint 'PharmacyAPI.Controllers.LoginController.Login (PharmacyAPI)'
+2025-03-06 19:27:58.016 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-03-06 19:27:58.071 +03:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-03-06 19:27:58.074 +03:00 [INF] Executing endpoint 'PharmacyAPI.Controllers.LoginController.Login (PharmacyAPI)'
+2025-03-06 19:27:58.094 +03:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(PharmacyAPI.Controllers.LoginRequest) on controller PharmacyAPI.Controllers.LoginController (PharmacyAPI).
+2025-03-06 19:27:58.097 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-03-06 19:27:58.098 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-03-06 19:27:58.098 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2025-03-06 19:27:58.099 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-03-06 19:27:58.100 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2025-03-06 19:27:58.102 +03:00 [DBG] Executing controller factory for controller PharmacyAPI.Controllers.LoginController (PharmacyAPI)
+2025-03-06 19:27:58.103 +03:00 [DBG] Executed controller factory for controller PharmacyAPI.Controllers.LoginController (PharmacyAPI)
+2025-03-06 19:27:58.105 +03:00 [DBG] Attempting to bind parameter 'request' of type 'PharmacyAPI.Controllers.LoginRequest' ...
+2025-03-06 19:27:58.107 +03:00 [DBG] Attempting to bind parameter 'request' of type 'PharmacyAPI.Controllers.LoginRequest' using the name '' in request data ...
+2025-03-06 19:27:58.110 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-03-06 19:27:58.115 +03:00 [DBG] Connection id "0HNASPF3ANMCP", Request id "0HNASPF3ANMCP:00000009": started reading request body.
+2025-03-06 19:27:58.116 +03:00 [DBG] Connection id "0HNASPF3ANMCP", Request id "0HNASPF3ANMCP:00000009": done reading request body.
+2025-03-06 19:27:58.125 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'PharmacyAPI.Controllers.LoginRequest'
+2025-03-06 19:27:58.127 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'PharmacyAPI.Controllers.LoginRequest'.
+2025-03-06 19:27:58.128 +03:00 [DBG] Done attempting to bind parameter 'request' of type 'PharmacyAPI.Controllers.LoginRequest'.
+2025-03-06 19:27:58.129 +03:00 [DBG] Attempting to validate the bound parameter 'request' of type 'PharmacyAPI.Controllers.LoginRequest' ...
+2025-03-06 19:27:58.134 +03:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'PharmacyAPI.Controllers.LoginRequest'.
+2025-03-06 19:27:58.175 +03:00 [INF] Executing action method PharmacyAPI.Controllers.LoginController.Login (PharmacyAPI) - Validation state: "Valid"
+2025-03-06 19:27:58.180 +03:00 [INF] Executed action method PharmacyAPI.Controllers.LoginController.Login (PharmacyAPI), returned result Microsoft.AspNetCore.Mvc.UnauthorizedResult in 0.4017ms.
+2025-03-06 19:27:58.183 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-03-06 19:27:58.185 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-03-06 19:27:58.185 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-03-06 19:27:58.187 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-03-06 19:27:58.187 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-03-06 19:27:58.204 +03:00 [INF] Executed action PharmacyAPI.Controllers.LoginController.Login (PharmacyAPI) in 101.6245ms
+2025-03-06 19:27:58.206 +03:00 [INF] Executed endpoint 'PharmacyAPI.Controllers.LoginController.Login (PharmacyAPI)'
+2025-03-06 19:27:58.207 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7236/api/auth/login - 401 null application/problem+json; charset=utf-8 230.8122ms
